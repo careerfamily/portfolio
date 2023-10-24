@@ -4,7 +4,7 @@
  * @param sections NodeList/Array of sections on page to observe during scrolling, must have id atttribute
  * @param links_to_sections NodeList/Array of links to add/remove .active to during section; links must contain anchor
  * @param shift_up_px amount of pixels to shift section start/end by; show sections sooner
- * @returns {on_scroll} event function for window.onscroll
+ * @returns on_scroll event function for window.onscroll
  */
 function onscrollHighLightSections(sections, links_to_sections, shift_up_px=200) {
     sections = Array.from(sections);
